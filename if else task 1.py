@@ -2,7 +2,7 @@
 
 a=int(input('inter a number: '))
 
-if (a * 2 == 0 ):
+if (a % 2 == 0 ):
     print(f"{a} is an even number")
 else:
     print(f"{a} is an odd number")
